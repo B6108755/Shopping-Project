@@ -1,4 +1,4 @@
-#Fornt-end
+# Fornt-end
 
 running : yarn start
 
@@ -9,7 +9,7 @@ using :
  - antd
  - axios api
 
-#Back-end
+# Back-end
 
 running : yarn start
 
