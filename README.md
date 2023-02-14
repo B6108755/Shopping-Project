@@ -1,5 +1,6 @@
-#Fornt-end 
+#Fornt-end
 running : yarn start
+
 using :
  - yarn 
  - react.js
@@ -9,6 +10,7 @@ using :
 
 #Back-end
 running : yarn start
+
 using :
  - yarn
  - nest.js
