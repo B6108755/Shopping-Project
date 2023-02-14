@@ -1,6 +1,5 @@
 import {
   Button,
-  Card,
   Col,
   Form,
   Input,
@@ -33,6 +32,7 @@ const ReportProductContent = (props: Props) => {
     form.setFieldsValue({
       phone: userDetail?.phone,
     });
+        // eslint-disable-next-line
   }, []);
 
   const fetchReport = async () => {
