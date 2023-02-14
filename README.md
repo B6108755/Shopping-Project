@@ -1,4 +1,4 @@
-# Fornt-end
+# Front-end
 
 running : yarn start
 
