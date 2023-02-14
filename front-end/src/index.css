@@ -1,0 +1,10 @@
+.fancy-background {
+  background-image: linear-gradient(
+    to right top,
+    #EBECE7,#F8E8D3,#EBECE7
+  );
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
