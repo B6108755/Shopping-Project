@@ -1,7 +1,4 @@
 #Fornt-end
-
-running : yarn start
-
 using :
  - yarn 
  - react.js
@@ -10,9 +7,6 @@ using :
  - axios api
 
 #Back-end
-
-running : yarn start
-
 using :
  - yarn
  - nest.js
