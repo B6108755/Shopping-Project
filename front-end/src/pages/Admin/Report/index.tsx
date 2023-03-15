@@ -12,7 +12,7 @@ const AdminReport = (props: Props) => {
   useEffect(() => {
     fetchReport();
     // eslint-disable-next-line
-  }, []);
+  }, [report]);
 
   const fetchReport = async () => {
     await baseURL.get(`/api/report`).then((res) => {

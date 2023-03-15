@@ -65,12 +65,13 @@ const DrawerProduct = ({ open, trigger, fetchData }: any) => {
 
   const onFinishProduct = async (data: any) => {
     data.img = ImageURL;
-    console.log(data);
     baseURL
       .post(`/api/product`, data)
       .then((res) => {
         openNotification();
         fetchData();
+        form.resetFields();
+        setImageURL("");
       })
       .catch((error) => {
         console.log(error);

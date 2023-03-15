@@ -16,7 +16,7 @@ const ProductsContent = (props: Props) => {
 
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [pro]);
 
   useEffect(() => {
     if (data.username) {

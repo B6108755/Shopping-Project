@@ -14,7 +14,7 @@ const Contact = (props: Props) => {
   useEffect(() => {
     fetchContact();
     //
-  }, []);
+  }, [contact]);
 
   const fetchContact = async () => {
     await baseURL.get(`/api/contact/1`).then((res) => {

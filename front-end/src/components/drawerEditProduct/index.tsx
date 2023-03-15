@@ -70,6 +70,7 @@ const DrawerEditProduct = ({ open, trigger, fetchData, data }: any) => {
   };
 
   const onFinishProduct = (data: any) => {
+    data.img = ImageURL;
     baseURL
       .patch(`/api/product/${id}`, data)
       .then((res) => {

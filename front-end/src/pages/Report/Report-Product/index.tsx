@@ -33,7 +33,7 @@ const ReportProductContent = (props: Props) => {
       phone: userDetail?.phone,
     });
         // eslint-disable-next-line
-  }, []);
+  }, [report]);
 
   const fetchReport = async () => {
     await baseURL.get(`/api/report?userid=${userDetail?.id}`).then((res) => {

@@ -27,7 +27,6 @@ export class ReportService {
   }
 
   findReportByUserId(id: string): Promise<Report[]> {
-    console.log(`SELECT * FROM \`report\` WHERE userid = \"${id}\"`);
     return this.reportRepository.query(
       `SELECT * FROM \`report\` WHERE userid = \"${id}\"`,
     );

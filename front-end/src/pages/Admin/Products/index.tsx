@@ -24,7 +24,7 @@ const AdminProductContent = (props: Props) => {
   useEffect(() => {
     fetchData();
     // eslint-disable-next-line
-  }, []);
+  }, [pro]);
 
   const fetchData = (name?: string) => {
     if (name) {
